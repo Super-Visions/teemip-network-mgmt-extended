@@ -2085,6 +2085,13 @@
       </presentation>
     </class>
     <class id="VLAN" _delta="must_exist">
+      <properties>
+        <order>
+          <columns>
+            <column id="vlan_tag" ascending="true"/>
+          </columns>
+        </order>
+      </properties>
       <fields>
         <field id="vlan_tag" xsi:type="AttributeInteger" _delta="redefine">
           <sql>vlan_tag</sql>
